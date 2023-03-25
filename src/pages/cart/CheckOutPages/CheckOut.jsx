@@ -10,7 +10,7 @@ const CheckOut = () => {
         <h3>Checkout</h3>
       </div>
       <div className="row">
-        <div className="col l12">
+        <div className="col l8 s12">
           <ShippingDetails />
         </div>
         <div className="col l4 s12">
