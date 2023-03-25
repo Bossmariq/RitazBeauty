@@ -6,7 +6,7 @@
   background: url("../img/bouncy-2.jpg") no-repeat center center/cover;
   height: 100%;
   width: 100%;
-  background-position: 0 -3rem;
+  background-position: 0 0;
   padding: 0 !important;
 }
 .displayed-hair .primary-overlay {
