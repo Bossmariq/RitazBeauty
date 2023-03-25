@@ -102,4 +102,8 @@
     margin-bottom: 3rem;
     width: 93vw !important;
   }
+  .checkout-model-container {
+    width: 80vw;
+    height: 60vh;
+  }
 }

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useGlobalContext } from "../../context/HairShopContext";
 
 const SubCheckout = ({ disabled, message }) => {
-  const { subTotal } = useGlobalContext();
+  const { subTotal, SmoothScrollToTop } = useGlobalContext();
 
   return (
     <section>
@@ -43,6 +43,7 @@ const SubCheckout = ({ disabled, message }) => {
         </strong>
         <Link
           to="/checkout"
+          onClick={() => SmoothScrollToTop()}
           disabled={disabled}
           className="card-button waves-effect waves-light btn-large"
         >

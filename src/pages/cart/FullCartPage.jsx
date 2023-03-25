@@ -16,7 +16,7 @@ const FullCartPage = () => {
             <CartTable />
           </div>
           <div className="col s12 l4">
-            <SubCheckout disabled={false} message={"Go To Checkout"} />
+            <SubCheckout disabled={false} message={"Checkout"} />
           </div>
         </div>
       ) : (
