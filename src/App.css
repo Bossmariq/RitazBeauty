@@ -238,4 +238,7 @@ ul {
     font-size: 10px !important;
     width: 100%;
   }
+  .card .card-action {
+    padding: 16px 12px !important;
+  }
 }
