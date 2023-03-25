@@ -192,6 +192,7 @@ ul {
 .card-button {
   color: var(--textColor) !important;
   background-color: #424242 !important;
+  width: 100%;
   margin: 1.5rem auto 0;
 }
 .center {
