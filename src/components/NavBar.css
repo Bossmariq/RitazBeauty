@@ -7,8 +7,13 @@ nav {
 .navbar-links:hover {
   background-color: #616161;
 }
-#mobile-demo {
-  z-index: 200000;
+.mobile-dem {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.mobile-dem i {
+  padding: 1rem;
 }
 
 @media screen and (max-width: 680px) {

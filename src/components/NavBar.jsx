@@ -36,19 +36,22 @@ const NavBar = () => {
           </ul>
         </div>
       </nav>
-      <ul className="sidenav" id="mobile-demo">
-        {pages.map((page, index) => (
-          <li key={index} className="sidenav-close">
-            <Link
-              onClick={() => SmoothScrollToTop()}
-              className="navbar-sm-links"
-              to={`/${page}`}
-              key={index}
-            >
-              {page}
-            </Link>
-          </li>
-        ))}
+      <ul className="sidenav mobile-dem" id="mobile-demo">
+        <i className="material-icons sidenav-close">close</i>
+        <div>
+          {pages.map((page, index) => (
+            <li key={index} className="sidenav-close">
+              <Link
+                onClick={() => SmoothScrollToTop()}
+                className="navbar-sm-links"
+                to={`/${page}`}
+                key={index}
+              >
+                {page}
+              </Link>
+            </li>
+          ))}
+        </div>
       </ul>
     </main>
   );
