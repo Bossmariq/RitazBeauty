@@ -228,4 +228,14 @@ ul {
   .mb-4 {
     margin-bottom: 5rem !important;
   }
+  .bestseller-cards img {
+    height: 12rem !important;
+  }
+  .bestseller-cards span {
+    font-size: 16px !important;
+  }
+  .bestseller-cards a {
+    font-size: 10px !important;
+    width: 100%;
+  }
 }

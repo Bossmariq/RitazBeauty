@@ -3,7 +3,7 @@ import BestSellersCardBlock from "./BestSellersCardBlock";
 
 const BestSeller = () => {
   return (
-    <section className="mt-3 mb-4">
+    <section className="mt-2 mb-4">
       <div
         data-aos="fade-right"
         data-aos-delay="500"

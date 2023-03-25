@@ -10,7 +10,7 @@ const BestSellersCardBlock = () => {
         const { id, name, price, instock, image } = eachHair;
 
         return (
-          <div key={id} className="col s6 m3">
+          <div key={id} className="col s6 m3 bestseller-cards">
             <Card
               name={name}
               price={price}
