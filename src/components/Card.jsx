@@ -27,7 +27,10 @@ const Card = ({ name, image, price, inStock, id, message }) => {
           <p>
             <strong>Price: </strong>${price}
           </p>
-          <p>
+          <p className="show-on-small">
+            <strong>{inStock ? "Out of Stock" : "In Stock"}</strong>
+          </p>
+          <p className="show-on-medium-and-up">
             <strong>Availability: </strong>
             {inStock ? "Out of Stock" : "In Stock"}
           </p>
