@@ -12,7 +12,7 @@ const ShopNav = () => {
   };
   return (
     <div>
-      <ul className="shop-ul">
+      <ul className="shop-ul m-auto">
         {tabs.map((tab, index) => (
           <li className="shop-li" key={index} id={index} onClick={checkIndex}>
             <Link className="grey-text text-darken-4 tabs-links">{tab}</Link>

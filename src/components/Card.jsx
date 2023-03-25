@@ -3,29 +3,25 @@ import { Link } from "react-router-dom";
 import { useGlobalContext } from "../context/HairShopContext";
 
 const Card = ({ name, image, price, inStock, id, message }) => {
-  const { selectHair, setPreLoading } = useGlobalContext();
+  const { selectHair, setPreLoading, SmoothScrollToTop } = useGlobalContext();
   const selectAHair = (id) => {
     setPreLoading(true);
+    selectHair(id, true);
     setTimeout(() => {
       setPreLoading(false);
-      selectHair(id, true);
+      SmoothScrollToTop();
     }, 3000);
   };
   return (
     <div>
       <div className="card hoverable">
         <div className="card-image waves-effect waves-block waves-light">
-          <img
-            onClick={() => selectAHair(id, true)}
-            className="img responsive-img"
-            src={image}
-            alt={name}
-          />
+          <img className="img responsive-img" src={image} alt={name} />
         </div>
         <div className="card-content card-action">
           <span className="card-title grey-text text-darken-4">{name}</span>
           <p>
-            <strong>Price: </strong>${price}
+            <strong>Price: </strong>${price}.00
           </p>
           <p className="hide-on-med-and-up">
             <strong>{inStock ? "Out of Stock" : "In Stock"}</strong>
@@ -36,6 +32,7 @@ const Card = ({ name, image, price, inStock, id, message }) => {
           </p>
           <div className="center">
             <Link
+              to={`/productpage`}
               onClick={() => selectAHair(id, true)}
               className="card-button btn waves-effect waves-light"
             >

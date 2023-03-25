@@ -47,7 +47,7 @@ const HairShopProvider = ({ children }) => {
       let hair;
       hair = allHairs.find((eachHair) => eachHair.id === id);
       setSelectedHair(hair);
-      setShowModal(true);
+      // setShowModal(true);
     } else {
       let hair;
       hair = cartContent.find((eachHair) => eachHair.id === id);

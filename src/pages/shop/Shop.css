@@ -1,6 +1,6 @@
 .shop-ul {
   display: flex;
-  margin-left: 6.1rem;
+  width: 85vw;
 }
 .shop-li {
   padding: 1rem;
@@ -20,4 +20,13 @@
 }
 .straight-hair {
   margin: 0 6.1rem !important;
+}
+@media screen and (max-width: 680px) {
+  .shop-ul {
+    margin-left: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
 }
