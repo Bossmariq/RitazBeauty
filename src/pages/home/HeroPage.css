@@ -1,0 +1,42 @@
+/* HERO PAGE CSS */
+.heroPage {
+  background: url("../../img/beuaty-black-woman-wig-hair-extencion-concept.jpg")
+    no-repeat center center/cover;
+  height: 550px;
+  width: 100%;
+  background-position: 0 -30px;
+}
+.hero-page-content {
+  width: 50%;
+  color: var(--textColor) !important;
+  text-align: right;
+  padding: 0 7rem;
+}
+.hero-page-content h1 {
+  margin: 1.4rem 0 0.5rem !important;
+}
+.hero-page-content span,
+h2 {
+  display: block;
+  --animate-duration: 2000ms;
+}
+.hero-button {
+  margin-top: 2rem;
+  color: #212121 !important;
+  background-color: #fff9c4 !important;
+}
+.hero-button:hover {
+  background-color: #ffe082 !important;
+}
+
+@media screen and (max-width: 680px) {
+  .heroPage {
+    background: url("../../img/bouncy-6.jpg") no-repeat center center/cover;
+    background-position: 0 0;
+  }
+  .hero-page-content {
+    width: 100%;
+    text-align: center;
+    padding: 0 2rem;
+  }
+}

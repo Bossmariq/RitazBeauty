@@ -1,0 +1,23 @@
+.shop-ul {
+  display: flex;
+  margin-left: 6.1rem;
+}
+.shop-li {
+  padding: 1rem;
+}
+.tabs-links:after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 0px;
+  background: transparent;
+  transition: width 0.7s ease, background-color 0.7s ease;
+}
+.tabs-links:hover:after {
+  width: 100%;
+  background: black;
+}
+.straight-hair {
+  margin: 0 6.1rem !important;
+}

@@ -1,0 +1,44 @@
+.display-section {
+  border: 2px solid #ffe082;
+  height: 80vh;
+}
+.displayed-hair {
+  background: url("../img/bouncy-2.jpg") no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  background-position: 0 s0px;
+  padding: 0 !important;
+}
+.displayed-hair .primary-overlay {
+  padding-top: 0 !important;
+  visibility: hidden;
+}
+.display-container {
+  height: 100%;
+}
+.display-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.display-content h2 {
+  margin: 1.4rem 0 0.5rem !important;
+}
+.DC-button {
+  margin-top: 2rem;
+  color: #212121 !important;
+  background-color: #ffd54f !important;
+}
+.DC-button:hover {
+  background-color: #ffe082 !important;
+}
+@media screen and (max-width: 680px) {
+  .display-container {
+    display: none;
+  }
+  .displayed-hair .primary-overlay {
+    visibility: visible;
+  }
+}

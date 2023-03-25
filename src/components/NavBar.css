@@ -1,0 +1,18 @@
+nav {
+  padding: 0 7rem;
+}
+.active {
+  background-color: #424242;
+}
+.navbar-links:hover {
+  background-color: #616161;
+}
+#mobile-demo {
+  z-index: 200000;
+}
+
+@media screen and (max-width: 680px) {
+  nav {
+    padding: 0 1rem;
+  }
+}

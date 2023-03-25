@@ -1,0 +1,19 @@
+.whychooseus {
+  background: url("../../../img/green-backgroud-2.jpg") no-repeat center
+    center/cover;
+  background-position: 0 0;
+  color: white;
+  padding: 4rem 0;
+}
+.whychooseus div {
+  width: 95%;
+}
+
+.whychooseussection h5 {
+  font-weight: 800;
+  text-transform: uppercase !important;
+}
+
+.whychooseussection i {
+  color: #ffe57f;
+}
