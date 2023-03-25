@@ -70,7 +70,7 @@ const IndividualProduct = () => {
               </div>
               <Link
                 onClick={() => addItemToCartt(id)}
-                className={`col m5 s5 btn waves-effect waves-light modal-cart-button ${
+                className={`col m5 s6 btn waves-effect waves-light modal-cart-button ${
                   cartNumber == 0 && "disabled"
                 } ${addingToCart && "disabled"}`}
               >

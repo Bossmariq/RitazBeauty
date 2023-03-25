@@ -12,7 +12,7 @@ const FullCartPage = () => {
       <h3>Shopping Cart</h3>
       {cartContent.length > 0 ? (
         <div className="row">
-          <div className="col l8 s12">
+          <div className="col l8 s12 mb-3">
             <CartTable />
           </div>
           <div className="col s12 l4">
