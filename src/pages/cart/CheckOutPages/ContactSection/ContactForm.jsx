@@ -15,7 +15,7 @@ const ContactForm = () => {
     }
   };
   return (
-    <section className="left-align">
+    <section className="left-align checkout-contact-form">
       <div className="checkout-contact-form-heading">
         <div className="center">1</div>
         <p>Enter your email</p>

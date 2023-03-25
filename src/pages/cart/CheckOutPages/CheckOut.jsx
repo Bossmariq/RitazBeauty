@@ -5,11 +5,11 @@ import "./CheckOut.css";
 
 const CheckOut = () => {
   return (
-    <main>
+    <main className="checkout-part">
       <div className="checkout-heading center">
         <h3>Checkout</h3>
       </div>
-      <div className="w-8 m-auto row">
+      <div className="row">
         <div className="col l8">
           <ShippingDetails />
         </div>

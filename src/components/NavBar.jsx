@@ -25,7 +25,7 @@ const NavBar = () => {
                 <NavLink
                   onClick={() => SmoothScrollToTop()}
                   className={({ isActive }) => {
-                    return `navbar-links ${isActive && "active"}`;
+                    return `navbar-links ${isActive && "activ"}`;
                   }}
                   to={`/${page}`}
                 >

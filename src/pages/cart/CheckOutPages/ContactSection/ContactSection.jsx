@@ -9,7 +9,7 @@ const ContactSection = () => {
   return (
     <main
       className="checkout-contact-section"
-      style={showContactInfo ? { height: "12rem" } : { height: "20rem" }}
+      style={showContactInfo ? { height: "14rem" } : { height: "20rem" }}
     >
       <div className="center">
         {showContactForm && <ContactForm />}

@@ -1,3 +1,7 @@
+.checkout-part {
+  width: 85%;
+  margin: auto;
+}
 .checkout-heading {
   background-color: white;
   margin: 1rem 0;
@@ -40,11 +44,13 @@
 .checkout-contact-info {
   width: 100%;
   display: flex;
-  gap: 1.5rem;
-  padding: 2rem 0 0 3rem;
+  align-items: start;
+  /* justify-content: center; */
+  gap: 1rem;
+  padding-left: 3rem;
 }
 .checkout-contact-info i {
-  padding: 1.2rem 0 0 2rem;
+  padding: 1.2rem 0 0 0;
   font-size: 2.5rem;
   color: #1b5e20;
 }
@@ -84,4 +90,16 @@
   display: flex;
   place-content: center;
   align-items: center;
+}
+@media screen and (max-width: 680px) {
+  .checkout-part {
+    width: 100%;
+    margin: auto;
+  }
+  .checkout-contact-section,
+  .checkout-shipping-section {
+    padding: 2rem 1rem;
+    margin-bottom: 3rem;
+    width: 100%;
+  }
 }
