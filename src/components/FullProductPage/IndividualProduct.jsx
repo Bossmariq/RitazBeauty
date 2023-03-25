@@ -32,7 +32,7 @@ const IndividualProduct = () => {
         <div className="product-content">
           <h2>{name}</h2>
           <div className="ipp-divide"></div>
-          <h5>${price}</h5>
+          <h5>${price}.00</h5>
           <p className="desc">
             Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
@@ -70,7 +70,7 @@ const IndividualProduct = () => {
               </div>
               <Link
                 onClick={() => addItemToCartt(id)}
-                className={`col m5 s6 btn waves-effect waves-light modal-cart-button ${
+                className={`col m5 s5 btn waves-effect waves-light modal-cart-button ${
                   cartNumber == 0 && "disabled"
                 } ${addingToCart && "disabled"}`}
               >

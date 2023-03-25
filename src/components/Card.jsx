@@ -6,11 +6,11 @@ const Card = ({ name, image, price, inStock, id, message }) => {
   const { selectHair, setPreLoading, SmoothScrollToTop } = useGlobalContext();
   const selectAHair = (id) => {
     setPreLoading(true);
-    selectHair(id, true);
     setTimeout(() => {
       setPreLoading(false);
-      SmoothScrollToTop();
-    }, 3000);
+    }, 2000);
+    selectHair(id, true);
+    SmoothScrollToTop();
   };
   return (
     <div>
