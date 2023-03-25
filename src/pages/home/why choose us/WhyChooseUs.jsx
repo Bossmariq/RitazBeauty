@@ -9,7 +9,7 @@ const WhyChooseUs = () => {
         <h1 className="center mb-2">Why Choose Us</h1>
       </div>
       <div>
-        <div className="row mb-3">
+        <div className="row WhoChooseUsSections">
           <WhoChooseUsSections
             icon={"headset_mic"}
             heading={"TOP-NOTCH CUSTOMER SERVICE"}

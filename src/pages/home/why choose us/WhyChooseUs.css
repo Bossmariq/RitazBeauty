@@ -9,6 +9,13 @@
   width: 95%;
 }
 
+.WhoChooseUsSections {
+  margin-bottom: 5rem !important;
+}
+.whychooseussection {
+  margin-bottom: 3rem !important;
+}
+
 .whychooseussection h5 {
   font-weight: 800;
   text-transform: uppercase !important;
@@ -16,4 +23,9 @@
 
 .whychooseussection i {
   color: #ffe57f;
+}
+@media screen and (max-width: 680px) {
+  .WhoChooseUsSections {
+    margin-bottom: 0 !important;
+  }
 }
