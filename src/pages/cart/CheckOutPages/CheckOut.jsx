@@ -10,10 +10,10 @@ const CheckOut = () => {
         <h3>Checkout</h3>
       </div>
       <div className="row">
-        <div className="col l8">
+        <div className="col l12">
           <ShippingDetails />
         </div>
-        <div className="col l4">
+        <div className="col l4 s12">
           <SubCheckout disabled={true} message={"Continue to payment"} />
         </div>
       </div>

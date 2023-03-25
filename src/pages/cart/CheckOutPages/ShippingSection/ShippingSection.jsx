@@ -10,7 +10,7 @@ const ShippingSection = () => {
   return (
     <main
       className="checkout-shipping-section mt-2"
-      style={showShippingForm ? { height: "60rem" } : { height: "29rem" }}
+      style={showShippingForm ? { height: "60rem" } : { height: "35rem" }}
     >
       {showShippingForm && <ShippingForm />}
       {loading && (

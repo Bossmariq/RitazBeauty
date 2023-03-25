@@ -93,13 +93,13 @@
 }
 @media screen and (max-width: 680px) {
   .checkout-part {
-    width: 100%;
+    width: 100% !important;
     margin: auto;
   }
   .checkout-contact-section,
   .checkout-shipping-section {
     padding: 2rem 1rem;
     margin-bottom: 3rem;
-    width: 100%;
+    width: 93vw !important;
   }
 }
