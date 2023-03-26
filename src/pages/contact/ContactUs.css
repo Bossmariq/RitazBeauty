@@ -64,6 +64,13 @@
 }
 
 @media screen and (max-width: 680px) {
+  .our-staff-container {
+    background-color: #fff;
+    height: 60vh;
+  }
+  .our-staff-container-overlay {
+    height: 30%;
+  }
   .contact-us-container {
     flex-direction: column-reverse;
     gap: 4rem;
