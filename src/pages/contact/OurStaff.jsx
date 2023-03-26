@@ -13,7 +13,7 @@ const OurStaff = () => {
             Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.,
           </p> */}
         </div>
-        <div className="our-staff-members-container mt-2">
+        <div className="our-staff-members-container">
           {teamMembers.map((member) => {
             const { image, name, position } = member;
             return (

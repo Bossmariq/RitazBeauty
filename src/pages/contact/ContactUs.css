@@ -56,6 +56,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin-top: 2rem;
 }
 .our-staff-member-container img {
   width: 60%;
@@ -70,6 +71,7 @@
   }
   .our-staff-members-container {
     width: 85%;
+    margin-top: 0;
   }
   .our-staff-member-container img {
     width: 70%;
