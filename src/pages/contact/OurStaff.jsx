@@ -7,13 +7,13 @@ const OurStaff = () => {
     <main className="our-staff-container">
       <div className="our-staff-container-overlay"></div>
       <div className="our-staff-content">
-        <div className="yellow-text text-lighten-4">
+        <div className="yellow-text text-lighten-4 mb-3 w-7">
           <h2>Our Team Members</h2>
           {/* <p>
             Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.,
           </p> */}
         </div>
-        <div className="our-staff-members-container">
+        <div className="our-staff-members-container mb-4">
           {teamMembers.map((member) => {
             const { image, name, position } = member;
             return (
