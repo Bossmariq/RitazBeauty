@@ -71,9 +71,15 @@
   }
   .our-staff-members-container {
     width: 85%;
-    margin-top: 0;
+    margin-top: -1rem;
   }
   .our-staff-member-container img {
     width: 70%;
+  }
+  .our-staff-member-container h6 {
+    font-size: 0.9rem;
+  }
+  .our-staff-member-container p {
+    font-size: 0.7rem;
   }
 }
